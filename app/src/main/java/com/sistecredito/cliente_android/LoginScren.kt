@@ -17,7 +17,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.sistecredito.cliente_android.R
-import kotlin.math.log
 
 @Composable
 fun LoginScreen() {
@@ -29,7 +28,7 @@ fun LoginScreen() {
     {
 
         Text(
-            text = "Cliente Suscriptor Android",
+            text = "Cliente publicador Android",
             fontSize = 28.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.width(400.dp),
